@@ -43,7 +43,7 @@ const modals = () => {
     }
 
     // init show modal by time when user more than 60 sec
-    showModelByTime('.popup', 60000);
+    //showModelByTime('.popup', 60000);
 };
 
 export default modals;
