@@ -2,9 +2,14 @@ import './slider';
 import modals from "./modules/modals";
 import tabs from "./modules/tabs";
 import forms from "./modules/form";
+import changeModalState from './modules/changeModalState';
 
 window.addEventListener('DOMContentLoaded', () => {
     "use strict";
+
+    let modalState = {};
+
+    changeModalState(modalState);
 
     // popup modals
     modals();
